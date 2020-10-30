@@ -1,0 +1,1120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* =============== Google Fonts Link ================ */
+
+
+/* =============== Common CSS Start ================ */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+    overflow: hidden;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul,
+ol,
+li {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.common-heading-about h1 {
+    text-transform: uppercase;
+    color: #ffc300;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.common-heading-about p {
+    color: #d6d1d1;
+    letter-spacing: 3px;
+}
+
+.common-heading-projects h1 {
+    text-transform: uppercase;
+    color: #ffc300;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.common-heading-projects p {
+    color: #d6d1d1;
+    letter-spacing: 3px;
+}
+
+.common-heading-skill h1 {
+    text-transform: uppercase;
+    color: #ffc300;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.common-heading-skill p {
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.common-heading-service h1 {
+    text-transform: uppercase;
+    color: #ffc300;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.common-heading-service p {
+    color: #ddd;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 25px;
+}
+
+.common-heading-portfolio h1 {
+    text-transform: uppercase;
+    color: #ffc300;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.common-heading-portfolio p {
+    color: #ffc300;
+    letter-spacing: 3px;
+}
+
+.common-heading-team h1 {
+    text-transform: uppercase;
+    color: #ffc300;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.common-heading-blobs h1 {
+    text-transform: uppercase;
+    color: #ffc300;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.common-heading-contact h1 {
+    text-transform: uppercase;
+    color: #ffc300;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.common-heading-contact p {
+    color: #ffc300;
+    letter-spacing: 4px;
+    margin-left: 35px;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 0 10px;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 5px;
+    height: 5px;
+    cursor: pointer;
+    text-align: center;
+    background: #1d0a66;
+    border-radius: 50%;
+    margin: 2px 5px;
+    border: none;
+    outline: none;
+}
+
+
+/* =============== Common CSS End ================ */
+
+
+/* =============== Main CSS ================ */
+
+
+/* =============== Header/clip-path-bg Part Start ================ */
+
+
+/* .header-part {
+    background: rgba(0, 0, 0, 0.8);
+} */
+
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 6px 0px;
+}
+
+.navbar .navbar-brand h1 {
+    color: #fff ! important;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand span {
+    color: #ffc300;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.navbar .navbar-nav .nav-item {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    transition: all linear .3s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    margin-left: 15px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item .nav-link:focus,
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #ffc300;
+    font-weight: bold;
+}
+
+
+/* =============== Header/clip-path-bg Part End ================ */
+
+.clip-path {
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 50% 100%, 0 83%);
+    position: relative;
+}
+
+.slider-part {
+    background-image: url(../img/slider-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider-part .bg-overlay {
+    padding: 250px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slider-part .slider-content {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.slider-part .slider-content h4 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.slider-part .slider-content h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.slider-part .slider-content h1 span {
+    color: #ffc300;
+}
+
+.slider-btn {
+    margin-top: 50px;
+}
+
+.slider-btn ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.slider-btn ul li {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin-right: 15px;
+}
+
+.slider-btn ul li a {
+    padding: 10px 25px;
+    background: rgba(0, 0, 0, .7);
+    color: #ffc300;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all linear .3s;
+}
+
+.slider-btn ul li a:hover {
+    background: #ffc300;
+    color: #000;
+}
+
+.down {
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 10px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 24px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.down .down-one {
+    display: block;
+    height: 0px;
+    margin-bottom: 5px;
+    width: 1px;
+    background: #ffc300;
+    margin-left: 12px;
+    -webkit-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.down .down-two {
+    text-orientation: mixed;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    white-space: nowrap;
+    transform: rotate(180deg);
+}
+
+.down:hover .down-two {
+    color: #ffde00 !important;
+}
+
+.down .down-three {
+    display: block;
+    height: 30px;
+    margin-bottom: 5px;
+    width: 1px;
+    background: #ffffff;
+    margin-left: 12px;
+    -webkit-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.down:hover .down-three {
+    height: 0px;
+    background: #f3c26b;
+}
+
+.down:hover .down-one {
+    height: 30px;
+}
+
+
+/* =============== About Part Start ================ */
+
+.about-part {
+    padding: 90px 0px;
+}
+
+.about-part .ab-right {}
+
+.about-part .ab-right .ab-img {}
+
+.about-part .ab-right .ab-img img {
+    width: 100%;
+}
+
+.ab-left {}
+
+.ab-content {}
+
+.ab-content p {
+    line-height: 24px;
+    padding-top: 15px;
+}
+
+.ab-left .social-link {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.ab-left .social-link p {
+    position: relative;
+    float: left;
+    padding-right: 70px;
+    padding-top: 4px;
+}
+
+.ab-left .social-link p:before {
+    content: " ";
+    display: block;
+    background: #ffc300;
+    width: 50px;
+    height: 2px;
+    top: 16px;
+    left: 90px;
+    position: absolute;
+}
+
+.ab-left .social-link ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    text-align: center;
+}
+
+.ab-left .social-link ul li {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin-left: 25px;
+}
+
+.ab-left .social-link ul li a {
+    font-size: 20px;
+    color: #000;
+    padding-top: 5px;
+    transition: all linear .3s;
+}
+
+.ab-left .social-link ul li a:hover {
+    color: #ffc300;
+}
+
+.ab-btn {}
+
+.ab-btn a {
+    padding: 5px 10px;
+    background: #ffc300;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear .3s;
+}
+
+.ab-btn a:hover {
+    color: #000;
+}
+
+.abSlider-part {
+    background-image: url(../img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+}
+
+.abSlider-part .about-bg-overlay {
+    padding: 180px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* =============== About Part End ================ */
+
+
+/* =============== Projects Part Start ================ */
+
+.projects-part {
+    padding: 90px 0px;
+}
+
+.project-img img {
+    width: 100%;
+}
+
+.project-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-item .project-img-overlay a {
+    padding: 5px 10px;
+    border: 2px solid #ffc300;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    transition: all linear .3s;
+}
+
+.project-item .project-img-overlay a:hover {
+    background: #ffc300;
+}
+
+.project-item .project-img-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all linear 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-item:hover .project-img-overlay {
+    left: 0;
+    opacity: 1;
+}
+
+.projectSlider-part {
+    background-image: url(../img/projectImage/project-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+}
+
+.projectSlider-part .project-bg-overlay {
+    padding: 180px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.all-projects {
+    padding: 50px 0px;
+}
+
+.project-items {
+    box-shadow: 0px 0px 15px gray;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.project-btn {
+    display: flex;
+}
+
+.project-btn a {
+    padding: 5px 10px;
+    background: #ffc300;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-project {
+    padding: 35px 0px;
+}
+
+
+/* =============== Projects Part End ================ */
+
+
+/* =============== Portfolio Part Start ================ */
+
+.portfolio-part {
+    padding: 20px 0px;
+}
+
+
+/* =============== Portfolio Part End ================ */
+
+
+/* =============== AB-Skill Part Start ================ */
+
+.skill-part {
+    padding: 50px 0px;
+    background: rgba(34, 34, 34, 0.7);
+    margin-bottom: 0.5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.skill-ber p {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* =============== AB-Skill Part End ================ */
+
+
+/* =============== Resume Part Start ================ */
+
+.resumeSlider-part {
+    background-image: url(../img/resume-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+}
+
+.resumeSlider-part .resume-bg-overlay {
+    padding: 180px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.resume-part {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.resume-btn {
+    box-shadow: 0px 0px 15px gray;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.resume-btn a {
+    padding: 5px 15px;
+    background: #ffc300;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear .3s;
+}
+
+.resume-btn a:hover {
+    color: #000;
+}
+
+
+/* =============== Resume Part End ================ */
+
+
+/* =============== Service Part Start ================ */
+
+.service-part {
+    background: url(../img/ser-background.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.service-part .ser-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 70px 0px;
+}
+
+.ser-box:after,
+.ser-box:before {
+    position: absolute;
+    height: 2px;
+    width: 2px;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.ser-box:before {
+    content: " ";
+    top: 0;
+    left: 0;
+    border-top: 2px solid #ffc300;
+    border-left: 2px solid #ffc300;
+    box-sizing: border-box;
+}
+
+.ser-box:after {
+    content: " ";
+    bottom: 0;
+    right: 0;
+    border-bottom: 2px solid #ffc300;
+    border-right: 2px solid #ffc300;
+    box-sizing: border-box;
+}
+
+.ser-box:hover:after,
+.ser-box:hover:before {
+    height: 25px;
+    width: 25px;
+    opacity: 1;
+}
+
+.ser-box .ser-box {
+    transition: all linear .3s;
+}
+
+.ser-box .ser-icon {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border: 3px solid #ffc300;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: all linear .3s;
+}
+
+.ser-box .ser-icon i {
+    color: #ffc300;
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+    transition: all linear .3s;
+}
+
+.ser-box:hover .ser-icon {
+    background: #ffc300;
+}
+
+.ser-box:hover .ser-icon i {
+    color: #000;
+}
+
+.ser-title h4 {
+    color: #ddd;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.ser-content p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+/* =============== Service Part End ================ */
+
+
+/* =============== Team Part End ================ */
+
+.team-part {
+    padding: 50px 0px;
+}
+
+.mem-social a i {
+    color: #000;
+    margin: 7px;
+    border: 2px solid #ffc300;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+
+/* =============== Team Part Start ================ */
+
+
+/* .team-profile {
+    box-shadow: 0px 0px 10px #1d0a66;
+    height: 390px;
+    width: 300px;
+} */
+
+
+/* =============== Hire Part Start ================ */
+
+.hire-part {
+    background-image: url(../img/hire-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 40px 0px;
+}
+
+.hire-part .hr-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 100px 0px;
+}
+
+.hr-btn {}
+
+.hr-btn a {
+    padding: 8px 40px;
+    border-radius: 15px;
+    background: #ffc300;
+    color: #000;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    transition: all linear .3s;
+}
+
+.hr-btn a:hover {
+    color: #fff;
+}
+
+
+/* =============== Hire Part End ================ */
+
+
+/* =============== Client Project Part Start ================ */
+
+.client_project_part {
+    padding: 30px 0px 0px;
+}
+
+.count {
+    color: #ff9d00;
+}
+
+
+/* =============== Client Project Part End ================ */
+
+
+/* =============== Blogs Part Start ================ */
+
+.blogs-part {
+    padding-top: 90px;
+    padding-bottom: 35px;
+}
+
+.blog-btn a {
+    padding: 5px 10px;
+    background: #ffc300;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear .3s;
+}
+
+.blog-btn a:hover {
+    color: #000;
+}
+
+.blogs-details {
+    padding: 100px 0px;
+}
+
+
+/* =============== Blogs Part End ================ */
+
+
+/* =============== Contact Part Start ================ */
+
+.contact-part {
+    background-image: url(../img/footer-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact-part .con-bgoverlay {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 50px 0px;
+}
+
+.contact-content {
+    padding-top: 50px;
+}
+
+.contact-item {
+    padding: 15px 35px;
+    background: #fff;
+    color: #000;
+    text-align: left;
+    border: 1px solid #f5f5f5;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.inner-contact {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.inner-contact span i {
+    height: 40px;
+    width: 40px;
+    background: rgba(7, 2, 26, 0.8);
+    color: #fff;
+    padding: 7px 0px 0px 8px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.inner-contact p {
+    margin-left: 15px;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.contact-item .info-cont {
+    padding-top: 25px;
+}
+
+.contact-item .info-cont p {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 10px;
+    word-spacing: -2px;
+}
+
+.contact-item .bg-icon {
+    margin-top: -51px;
+}
+
+.contact-item .bg-icon i {
+    margin-left: 90%;
+    font-size: 45px;
+    color: #efedf4;
+}
+
+.contact-content {}
+
+.contact-content .contact-us-part {}
+
+.contact-content .contact-us-part p {
+    color: #ffc300;
+    font-size: 18px;
+}
+
+.contact-content .contact-us-part .con-form {
+    margin-top: 50px;
+    border: none;
+    overflow: hidden;
+}
+
+.con-form .form-group {}
+
+.con-form .form-group i {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: rgba(7, 2, 26, 0.8);
+    font-size: 22px;
+}
+
+.con-form .form-group input {
+    padding: 25px 50px;
+    border-radius: 15px;
+    background: #fff;
+    border: none;
+    overflow: hidden;
+    border: none;
+}
+
+.con-form .form-group textarea {
+    padding: 15px 0px 70px 50px;
+    border-radius: 15px;
+    background: #fff;
+    border: none;
+    overflow: hidden;
+}
+
+.con-form .submit-form {}
+
+.con-form .submit-form button {
+    padding: 15px 30px;
+    background: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border: none;
+    overflow: hidden;
+    transition: all linear .3s;
+}
+
+.con-form .submit-form button:hover {
+    background: #ffc300;
+}
+
+.con-form .submit-form button span i {
+    color: rgba(7, 2, 26, 0.8);
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
+.footer-part {
+    background: #e4ddff;
+    padding: 10px 0px;
+    margin-top: 2px;
+}
+
+.footer-part .social-link {
+    margin-left: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer-part .social-link ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.footer-part .social-link ul li {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin-left: 10px;
+}
+
+.footer-part .social-link ul li a {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #1d0a66;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #1d0a66;
+    padding-top: 5px;
+    transition: all linear .3s;
+}
+
+.footer-part .social-link ul li a:hover {
+    background: #1d0a66;
+    color: #ffc300;
+    transform: translateY(-7px);
+}
+
+.footer-part .f-content {
+    text-align: center;
+}
+
+.footer-part .f-content p {
+    color: #000;
+    margin-left: 45px;
+    letter-spacing: 1px;
+}
+
+#scroll_button {
+    display: none;
+    right: -90%;
+    bottom: 40px;
+    position: fixed;
+    border: none;
+    z-index: 99;
+    color: #000a63;
+}
+
+
+/* =============== Contact Part End ================ */
+
+
+/* =============== Main CSS ================ */
